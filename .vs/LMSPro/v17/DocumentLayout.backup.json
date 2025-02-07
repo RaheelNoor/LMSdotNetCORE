@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\LMSApi\\lmsApi\\LMSPro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|a:\\lmsapi\\lmsapi\\lmspro\\lmspro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{58167358-9D03-42ED-A26E-8DCCBCE8B8B5}|LMSPro\\LMSPro.csproj|solutionrelative:lmspro\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LMSPro\\Properties\\launchSettings.json",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LMSPro\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T05:54:12.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "LMSPro\\Controllers\\AuthorController.cs",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "LMSPro\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T05:37:50.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LMSPro\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LMSPro\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T02:17:35.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Program.cs",
+              "RelativeDocumentMoniker": "LMSPro\\Program.cs",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Program.cs",
+              "RelativeToolTip": "LMSPro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T01:31:52.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Author.cs",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Model\\Author.cs",
+              "RelativeDocumentMoniker": "LMSPro\\Model\\Author.cs",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\Model\\Author.cs",
+              "RelativeToolTip": "LMSPro\\Model\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T01:28:17.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\appsettings.json",
+              "RelativeDocumentMoniker": "LMSPro\\appsettings.json",
+              "ToolTip": "A:\\LMSApi\\lmsApi\\LMSPro\\LMSPro\\appsettings.json",
+              "RelativeToolTip": "LMSPro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T01:25:30.868Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
