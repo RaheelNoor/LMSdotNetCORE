@@ -1,5 +1,6 @@
 using LMSPro.Data;  // Ensure you import your data namespace
 using LMSPro.Repository;
+using LMSPro.Repository.InterFace;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAuthor, AuthorServices>();
+builder.Services.AddScoped<IBooks, BookService>();
+builder.Services.AddScoped<IUsers, UserServices>();
 
 // Enable CORS for React
 builder.Services.AddCors(options =>

@@ -1,13 +1,13 @@
 ﻿using LMSPro.Model;
 
-namespace LMSPro.Repository
+namespace LMSPro.Repository.InterFace
 {
-    public interface IAuthor
+    public interface IAuthors
     {
-        public IEnumerable<Author> GetAuthors();
-        Author GetAuthorById(int id);
-        public Author PostAuthor(Author author);
-        Author UpdateAuthor(int id, Author author);
+        public IEnumerable<Authors> GetAuthors();
+        Authors GetAuthorById(int id);
+        public Authors PostAuthor(Authors author);
+        Authors UpdateAuthor(int id, Authors author);
         bool DeleteAuthor(int id);
     }
 }

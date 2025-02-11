@@ -1,29 +1,29 @@
 ﻿using LMSPro.Model;
-using LMSPro.Repository;
+using LMSPro.Repository.InterFace;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace LMSPro.Controllers
 {
-    [Route("api/authors")]
+    [Route("api/[controller]")]  
     [ApiController]
     public class AuthorsController : ControllerBase
     {
-        private readonly IAuthor _authorService;
+        private readonly IAuthors _authorService; 
 
-        public AuthorsController(IAuthor authorService)
+        public AuthorsController(IAuthors authorService)
         {
             _authorService = authorService;
         }
 
         [HttpGet]
-        public IEnumerable<Author> GetAuthors()
+        public IEnumerable<Authors> GetAuthors()
         {
             return _authorService.GetAuthors();
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Author> GetAuthorById(int id)
+        public ActionResult<Authors> GetAuthorById(int id)
         {
             var author = _authorService.GetAuthorById(id);
             if (author == null) return NotFound("Not Found");
@@ -31,13 +31,13 @@ namespace LMSPro.Controllers
         }
 
         [HttpPost]
-        public ActionResult<Author> PostAuthor(Author author)
+        public ActionResult<Authors> PostAuthor(Authors author)
         {
             return _authorService.PostAuthor(author);
         }
-        // i am writing this commit for test git work 
+
         [HttpPut("{id}")]
-        public IActionResult UpdateAuthor(int id, Author author)
+        public IActionResult UpdateAuthor(int id, Authors author)
         {
             var updatedAuthor = _authorService.UpdateAuthor(id, author);
             if (updatedAuthor == null) return NotFound();
