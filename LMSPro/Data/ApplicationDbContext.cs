@@ -17,6 +17,8 @@ namespace LMSPro.Data
         public DbSet<Loans> Loans { get; set; }
         public DbSet<Users> Users { get; set; }
         public DbSet<BookCopies> BookCopies { get; set; }
+        //Views Tables 
+        public DbSet<AllBooksView> V_AllBooks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,6 +31,8 @@ namespace LMSPro.Data
             modelBuilder.Entity<Users>().HasKey(p => p.UserID);
             modelBuilder.Entity<BookCopies>().HasKey(p => p.CopyID);
             modelBuilder.Entity<Loans>().HasOne(l => l.BookCopy).WithMany().HasForeignKey(l => l.CopyID).OnDelete(DeleteBehavior.Restrict);
+            //Views 
+            modelBuilder.Entity<AllBooksView>().HasKey(p => p.BookNumber);
         }
     }
 }
